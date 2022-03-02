@@ -1,6 +1,12 @@
 # PlanYourJourney (C# - Specflow - Selenium)
 
-This repository contains automated test cases to validate the Journey Planner functionality
+This repository contains automated test cases to validate the Journey Planner functionality.
+1.	Verify that a valid journey can be planned using the widget. (A valid journey will consist of a valid locations entered into the widget)
+2.	Verify that the widget is unable to provide results when an invalid journey is planned. (An invalid journey will consist of 1 or more invalid locations entered into the widget). 
+3.	Verify that the widget is unable to plan a journey if no locations are entered into the widget. 
+4.	On the Journey results page, verify that a journey can be amended by using the “Edit Journey” button.
+5.	Verify that the “Recents” tab on the widget displays a list of recently planned journeys. 
+
 
 ## *Requirements*
 
