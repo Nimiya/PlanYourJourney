@@ -27,6 +27,7 @@ This repository contains automated test cases to validate the Journey Planner fu
 8. Click on Build -> Build Solution (Ctrl+Shift+B)
 9. Once the Build is succeeded, Click on Test -> Test Explorer
 10. Click on Run all tests in View
+11. Once the test is finished you will be able to see the results (Duration, Traits and Error Message(if any)) in the Test Explorer
 
 
 ## *Framework Design*
