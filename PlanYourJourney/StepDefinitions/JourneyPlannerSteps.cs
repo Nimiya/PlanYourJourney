@@ -44,9 +44,7 @@ namespace PlanYourJourney.StepDefinitions
                 loginPage.inputFrom.SendKeys(Keys.ArrowDown);
                 loginPage.inputFrom.SendKeys(Keys.Enter);
                 CustomBaseClass.EnterText(loginPage.inputTo, to);
-                //loginPage.inputTo.SendKeys(Keys.ArrowDown);
                 loginPage.inputTo.SendKeys(Keys.Enter);
-                //loginPage.planJourneyButton.Click();
             }
             catch (Exception E)
             {
@@ -87,7 +85,6 @@ namespace PlanYourJourney.StepDefinitions
                 CustomBaseClass.EnterText(loginPage.inputFrom, from);
                 CustomBaseClass.EnterText(loginPage.inputTo, to);
                 loginPage.inputTo.SendKeys(Keys.Enter);
-                //loginPage.planJourneyButton.Click();
             }
             catch (Exception E)
             {

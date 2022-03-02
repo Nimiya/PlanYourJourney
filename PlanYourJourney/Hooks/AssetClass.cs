@@ -24,7 +24,7 @@ namespace PlanYourJourney.Hooks
             }
         }
 
-        // Makes sure that the test case will not fail unless its absolutely necessary. Returns a true or false to AssertElement is Presesent Method
+        
         public static bool IsElementPresent(IWebElement element)
         {
             bool Present = false;
@@ -56,7 +56,7 @@ namespace PlanYourJourney.Hooks
         }
 
 
-        // Checks for Text and confirms its a match
+        
         public static void ContainsText(IWebElement element, string neededText)
         {
             string actualText = element.Text;

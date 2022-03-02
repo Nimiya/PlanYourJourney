@@ -16,9 +16,7 @@ namespace PlanYourJourney.Hooks
 
             try
             {
-                // get the path of the currently executing assembly
                 string currentPath = Assembly.GetExecutingAssembly().Location;
-                // get the directory name of the current assembly
                 string directory = Path.GetDirectoryName(currentPath);
                 DirectoryInfo info = new DirectoryInfo(directory);
                 string path = info.Parent.Parent.FullName;
@@ -28,8 +26,6 @@ namespace PlanYourJourney.Hooks
                 string imagename = DateTime.Now.ToString("yyyy-MM-dd-HH_mm_ss");
                 string date = DateTime.Today.ToString("dd-MM-yyyy");
 
-                //var path = Path.GetDirectoryName(Assembly.GetExecutingAssembly().GetName().Name);
-                // path = path.Substring(6);
                 string TestResultLocation = path + "/Test Outputs/Failed Tests " + date;
 
                 if (Directory.Exists(TestResultLocation) == false)

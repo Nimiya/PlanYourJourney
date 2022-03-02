@@ -26,11 +26,9 @@ namespace PlanYourJourney.Hooks
                 ChromeOptions.AddAdditionalCapability("useAutomationExtension", false);
                 ChromeOptions.AddArguments("--start-maximized");
                 ChromeOptions.AddArguments("--no-sandbox");
-                //ChromeOptions.AddArgument("--headless");
                 CustomBaseClass.MyDriver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), ChromeOptions);
                 CustomBaseClass.MyDriver.Manage().Cookies.DeleteAllCookies();
                 CustomBaseClass.MyDriver.Navigate().GoToUrl(BaseURL);
-                //  PageLoaded("login");
                 Console.WriteLine("Browser loaded, Test Passed");
             }
             catch (Exception testInitiationException)
@@ -63,12 +61,7 @@ namespace PlanYourJourney.Hooks
             try
             {
                 CustomBaseClass.MyDriver.Quit();
-                //Process[] chromeDriverProcesses = Process.GetProcessesByName("chromedriver");
 
-                //foreach (var chromeDriverProcess in chromeDriverProcesses)
-                //{
-                //    chromeDriverProcess.Kill();
-                //}
                 Console.WriteLine("Test Completes successfully");
             }
             catch (WebDriverException testClosingException)

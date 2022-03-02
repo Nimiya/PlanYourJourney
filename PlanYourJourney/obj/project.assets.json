@@ -10476,11 +10476,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\PlanYourJourney\\PlanYourJourney\\PlanYourJourney.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\tfl\\PlanYourJourney\\PlanYourJourney\\PlanYourJourney.csproj",
       "projectName": "PlanYourJourney",
-      "projectPath": "C:\\Users\\DELL\\source\\repos\\PlanYourJourney\\PlanYourJourney\\PlanYourJourney.csproj",
+      "projectPath": "C:\\Users\\DELL\\source\\repos\\tfl\\PlanYourJourney\\PlanYourJourney\\PlanYourJourney.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\source\\repos\\PlanYourJourney\\PlanYourJourney\\obj\\",
+      "outputPath": "C:\\Users\\DELL\\source\\repos\\tfl\\PlanYourJourney\\PlanYourJourney\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
